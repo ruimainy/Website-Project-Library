@@ -1,0 +1,147 @@
+#topNav{
+	width: 100%;height: 30px;background: #000;clear: both;
+}
+.topNavWrap{
+	width: 1090px;height: 30px;line-height: 30px;margin: 0 auto;
+}
+.topNavWrap ul.topNavUl{
+	float: right;
+}
+.topNavWrap ul.topNavUl li{
+	float: left;color:#999;padding: 0 14px;
+}
+/*  */
+.topNavLeftDiv{
+	float: left;
+}
+.topNavLeftDiv a:link,
+.topNavLeftDiv label{
+	color:#999;
+}
+.topNavLeftDiv a{margin-right: 16px;}
+.topNavLeftDiv a:hover{color: #fff;}
+
+/* header */
+#docHead{
+	width: 100%;height: 100px;clear: both;
+	background: #fff;
+}
+.headerDiv{
+	width: 1090px;height: 100px;margin: 0 auto;
+	position: relative;
+}
+.logo_div{
+	width: 218px;height: 78px;float: left;
+	margin: 12px 0 0 0;
+	background: url('../image/logo.png') no-repeat;
+}
+.searchDiv{
+	position: absolute;left: 343px;top: 24px;
+}
+
+.searchDiv ul.search_tip_list{
+	width: 461px;height: 22px;line-height: 22px;
+	color: #999;font-size: 12px;    margin-top: 2px;
+}
+.searchDiv ul.search_tip_list li{
+	float: left;margin-left: 30px;
+}
+
+.headerSearchDiv{
+	width: 510px;height: 40px;border: 2px solid #ff2337;
+	border-radius: 40px;	
+}
+.headerSearchDiv input.txt{
+	width: 410px;height: 24px;float: left;border: 0;
+	font-size: 13px;color: #999;
+	margin:7px 0 0 10px;
+	background-image: url('../image/icon.png');
+	background-position: left center;
+	background-repeat: no-repeat;
+	background-size: 15px;
+	padding-left: 20px;
+}
+.headerSearchDiv input.btn{
+	width: 60px;height: 40px;
+	background-color: #ff2337;
+	background-image: url('../image/icon.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 20px;
+	display: block;float: right;
+	border: 0;border-radius: 40px;
+}
+
+.shopCarNumBtn{
+	height: 40px;position: absolute;right: 76px;top: 24px;
+	border-radius: 36px;border: 2px solid #ff1e32;
+	padding-right: 10px;
+}
+.shopCarNumBtn i.shopCarIcon{
+	width: 20px;height: 20px;float: left;
+	background: url('../image/shopCarIcon.png') no-repeat;
+	margin: 10px 0 0 8px;
+}
+.shopCarText{
+	float: left;margin:11px 0 0 10px;font-size: 14px;
+}
+.shopCar_num{
+	float: left;height: 20px;font-weight: normal;
+	background: #f00;color: #fff;padding: 0 5px;
+	border-radius: 36px;margin: 9px 0 0 7px;
+	line-height: 20px;
+}
+
+/* topTabWrap */
+.topTab_nav{
+	width: 100%;clear: both;height: 40px;
+}
+.topTabWrap{
+	width: 1090px;height: 40px;margin: 0 auto;line-height: 40px;
+}
+.topTabWrap dl.productNav{
+	width: 164px;height: 40px;float: left;
+	background: linear-gradient(90deg,red,#ff3264);
+}
+.topTabWrap dl.productNav dt{color: #fff;}
+.topTabWrap dl.productNav dt span{text-align: left;font-size: 14px;}
+.topTabWrap dl.productNav dd.product_list{}
+.topTabWrap dl.productNav dd.product_list li{
+	width: 154px;height: 44px;padding-left: 10px;
+	background: linear-gradient(90deg,red,#ff3264);
+}
+.topTabWrap dl.productNav dd.product_list li span{
+	font-size: 14px;color: #fff;display: inline-block;    width: 70px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.topTabWrap dl.productNav dd.product_list em{
+	display: block;width: 154px;height: 1px;overflow: hidden;font-size: 1px;
+	background: #ff5160;margin: 0 auto;
+}
+
+img.product_icon{
+	width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    padding: 0 20px 0 4px;
+}
+
+div.lineicon{
+	display: inline-block;
+	width: 15px;
+    height: 12px;    margin: 0 24px 0 15px;
+}
+div.lineicon i.line_icon{
+	width: 15px;
+    height: 0;
+    border-top: 2px solid #ddd;
+    display: block;
+    margin-bottom: 3px;
+}
+.arrow_icon{
+	display: inline-block;color: #ff96ad;
+    font-size: 19px;
+    width: 16px;
+}
